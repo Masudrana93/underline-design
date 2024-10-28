@@ -1,0 +1,229 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Some important CSS Start */
+
+/* Navbar CSS Start  */
+.hd-bg-top{
+    background: #5c69b3;
+}
+.col-md-6.header-top-2 ul li {
+    list-style: none;
+}
+.col-md-6.header-top-2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.col-md-6.header-top-2 ul li a:hover{
+    color: #249db6;
+}
+.header-top-2 a i:hover{
+    color: #249db6!important;
+}
+
+
+
+.nav-item{
+    border-left: 1px solid gray !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav li a{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav li a:hover{
+    
+    background-color: #249db6;
+}
+.nav-top-font{
+    font-size: 14px;
+}
+
+
+/* Navbar CSS End  */
+
+/* Footer CSS Start  */
+
+.logo-article p{
+    color: white;
+}
+
+
+.footer-menu ul li{
+list-style: none;
+margin-bottom: 10px;
+}
+.footer-menu ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+.footer-menu ul li a:hover{
+    color: red;
+    
+}
+.heading-text-color{
+    color: white;
+}
+
+/* Footer CSS End  */
+
+
+
+/* *****Welcome Section CSS start **** */
+
+
+
+/* underline left side CSS start  */
+.heading-undrline h3{
+    position: relative;
+    width: max-content;
+}
+.heading-undrline h3::before{
+    content: "";
+    width: 30%;
+    height: 5px;
+   
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+.heading-undrline h3::after{
+    content: "";
+    width: 12%;
+    height: 4px;
+    
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    bottom: -33%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+.heading-undrline:hover.heading-undrline h3::before{
+    content: "";
+    width: 12%;
+    height: 4px;
+  
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    bottom: -27%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.heading-undrline:hover.heading-undrline h3::after{
+    content: "";
+    width: 30%;
+    height: 5px;
+   
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* underline left side CSS end  */
+
+/* *****Welcome Section CSS end **** */
+
+
+/* *****News & event CSS Start**** */
+
+/* underline center side CSS start  */
+
+.heading-undrline-center h3{
+    position: relative;
+    width: max-content;
+}
+.heading-undrline-center h3::before{
+    content: "";
+    width: 30%;
+    height: 5px;
+    
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+.heading-undrline-center h3::after{
+    content: "";
+    width: 12%;
+    height: 4px;
+    
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: -33%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+.heading-undrline-center:hover.heading-undrline-center h3::before{
+    content: "";
+    width: 12%;
+    height: 4px;
+  
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: -27%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.heading-undrline-center:hover.heading-undrline-center h3::after{
+    content: "";
+    width: 30%;
+    height: 5px;
+    
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    border-radius: 50px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* underline center side CSS end */
+
+
+
+
+
+
+/* *****News & event CSS end**** */
